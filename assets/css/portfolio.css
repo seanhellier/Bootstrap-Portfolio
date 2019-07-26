@@ -1,3 +1,58 @@
+body {
+    background: url("../images/floor-tile.png");
+}
+
+
+
+#logo {
+    width: 3000;
+    height: 50;
+    background: #4aaaa5;
+    float:left;
+    font-family: Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    /* padding: 20px; */
+}
+
+/* nav {
+    float: right;
+    margin-top: 25px;
+} */
+
+nav a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #efefef;
+    padding-left: 15;
+    line-height: 18px;
+}
+
+nav a:first-child {
+    border-left: 0 none;
+}
+
+.auth-image {
+    width: 274px;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+    margin-right: 25px;
+}
+
+#h1 {
+    font-family: `font-family: 'Georgia', Times, Times New Roman, serif;`;
+    font-weight: 700;
+    color: 4aaaa5;
+}
 
 #rock {
     /* color: purple; 
@@ -18,4 +73,38 @@
     /* margin: 30px; */
     margin-bottom: 0;
     font-weight: 300;
+}
+
+#hudson {
+    /* color: purple; 
+    background-color: #4aaaa5; */
+    font-family:'Georgia', Times, Times New Roman, serif;
+    font-size: 22px
+    font-weight: 700;
+    color: 4aaaa5;
+    border-bottom: 0;
+    background: #4aaaa4;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 40px;
+    padding: 15px;
+    width: 274px;
+    line-height: 30px;
+    /* margin: 30px; */
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+
+ footer-style {
+    height: 20px;
+    background: #666;
+    color: #fff;
+    padding: 30px 0;
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
 }

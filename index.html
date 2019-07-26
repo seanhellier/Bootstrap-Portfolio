@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -10,6 +10,9 @@
 
     <!-- Custom styles for this template -->
     <link href="./assets/css/sticky-footer-navbar.css" rel="stylesheet">
+
+        <!-- Local stylesheet -->
+    <link href="./assets/css/portfolio.css" rel="stylesheet">
     
     <title>My Portfolio</title>
   </head>
@@ -17,38 +20,34 @@
   <body>
 
     <header>
-      <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Sean Leif Hellier</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                    <a class="nav-link disabled" href="./contact.html">Contact</a>
-                  </li>
-          </ul>
+        <div class="container" style="border:1px solid #cecece;">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <a href="index.html" id="logo">Sean Leif Hellier</a>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <nav>
+                                <a href="index.html">About</a>
+                                <a href="portfolio.html">Portfolio</a>
+                                <a href="contact.html">Contact</a>
+                              </nav>
+
+                </div>
+    
+            </div>
+
+
         </div>
-      </nav>
+ 
     </header>
 
-    <!-- Begin page content -->
-    <!-- <main role="main" class="container">
-      <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-      <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-      <p>Back to <a href="https://glitch.com/~bootstrap-4-example-sticky-footer">the default sticky footer</a> minus the navbar.</p>
-    </main> -->
-    <div class="container";>
+   
+    <div class="container" style="border:1px solid #5c5959;">
 
             <!-- code snippet https://stackoverflow.com/questions/49225505/how-to-make-text-wrap-around-image-with-bootstrap-4-without-float -->
-              <article class="row single-post mt-5 no-gutters">
+            <div class="row">  <h1 class="text-success">About Me</h1></div>
+            <article class="row single-post mt-5 no-gutters">
                   <div class="col-md-12">
                       <div class="image-wrapper float-left pr-3">
                           <img src="./assets/images/skydiver.jpg"           class="auth-image" alt="">
@@ -77,12 +76,11 @@
                   </div>
               </article>
           </div>
-      
-            
+  
           
           </div> <!-- end Container -->
 
-    <footer class="footer">
+    <footer class="footer class=footsie">
       <div class="container">
         <span class="text-muted"> &copy; Copyright 2019 Sean Leif Hellier</span>
       </div>
