@@ -19,3 +19,8 @@
     margin-bottom: 0;
     font-weight: 300;
 }
+h1 {
+    font-family: `font-family: 'Georgia', Times, Times New Roman, serif;`;
+font-weight: 700;
+color: #4aaaa5;
+  }
