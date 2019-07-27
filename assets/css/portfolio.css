@@ -2,7 +2,13 @@ body {
     background: url("../images/floor-tile.png");
 }
 
+.navbar {
+    border-bottom: 2px solid black;
 
+}
+
+.text-success {
+    color: #7b9a82!important;
 
 #logo {
     width: 3000;
