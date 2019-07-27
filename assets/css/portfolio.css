@@ -24,3 +24,7 @@ h1 {
 font-weight: 700;
 color: #4aaaa5;
   }
+
+  .container div.row:last-child {
+    border-bottom: 1px solid;
+}
