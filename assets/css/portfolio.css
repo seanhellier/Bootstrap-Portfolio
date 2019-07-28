@@ -1,7 +1,7 @@
 
+
+
 #rock {
-    /* color: purple; 
-    background-color: #4aaaa5; */
     font-family:'Georgia', Times, Times New Roman, serif;
     font-size: 22px
     font-weight: 700;
@@ -27,4 +27,13 @@ color: #4aaaa5;
 
   .container div.row:last-child {
     border-bottom: 1px solid;
+    
+}
+
+.navbar-brand {
+  float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
 }
